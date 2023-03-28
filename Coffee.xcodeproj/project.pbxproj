@@ -58,7 +58,7 @@
 		AE47F15528D3F92D00CB3F39 /* CoffeesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeesScreen.swift; sourceTree = "<group>"; };
 		AE47F15728D3F94100CB3F39 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		AE47F15928D3F95700CB3F39 /* CoffeeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeScreen.swift; sourceTree = "<group>"; };
-		AE4E564C28C313DE00CBF8BC /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4E564C28C313DE00CBF8BC /* CoffeeCheru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeCheru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4E564F28C313DE00CBF8BC /* CoffeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeApp.swift; sourceTree = "<group>"; };
 		AE4E565128C313DE00CBF8BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE4E565328C313DF00CBF8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		AE4E564D28C313DE00CBF8BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE4E564C28C313DE00CBF8BC /* Coffee.app */,
+				AE4E564C28C313DE00CBF8BC /* CoffeeCheru.app */,
 				AE4E565D28C313DF00CBF8BC /* CoffeeTests.xctest */,
 				AE4E566728C313DF00CBF8BC /* CoffeeUITests.xctest */,
 			);
@@ -249,7 +249,7 @@
 				AE7D553C28CD48430013DD60 /* CoffeeKit */,
 			);
 			productName = Coffee;
-			productReference = AE4E564C28C313DE00CBF8BC /* Coffee.app */;
+			productReference = AE4E564C28C313DE00CBF8BC /* CoffeeCheru.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AE4E565C28C313DF00CBF8BC /* CoffeeTests */ = {
@@ -532,10 +532,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Coffee/Coffee.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Coffee/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = BBHVU39LL9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -556,8 +557,9 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Coffee;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.everydayutilityapps.coffee;
+				PRODUCT_NAME = CoffeeCheru;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -574,10 +576,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Coffee/Coffee.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Coffee/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = BBHVU39LL9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -598,8 +601,9 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Coffee;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.everydayutilityapps.coffee;
+				PRODUCT_NAME = CoffeeCheru;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -617,19 +621,19 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 72NX6HE832;
+				DEVELOPMENT_TEAM = BBHVU39LL9;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.frothy.CoffeeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everydayutilityapps.coffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coffee";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeCheru.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoffeeCheru";
 			};
 			name = Debug;
 		};
@@ -640,12 +644,12 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 72NX6HE832;
+				DEVELOPMENT_TEAM = BBHVU39LL9;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.frothy.CoffeeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.everydayutilityapps.coffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -662,7 +666,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 72NX6HE832;
+				DEVELOPMENT_TEAM = BBHVU39LL9;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.5;

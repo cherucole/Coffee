@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE4E564B28C313DE00CBF8BC"
-               BuildableName = "Coffee.app"
+               BuildableName = "CoffeeCheru.app"
                BlueprintName = "Coffee"
                ReferencedContainer = "container:Coffee.xcodeproj">
             </BuildableReference>
@@ -67,7 +67,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE4E564B28C313DE00CBF8BC"
-            BuildableName = "Coffee.app"
+            BuildableName = "CoffeeCheru.app"
             BlueprintName = "Coffee"
             ReferencedContainer = "container:Coffee.xcodeproj">
          </BuildableReference>
@@ -84,7 +84,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE4E564B28C313DE00CBF8BC"
-            BuildableName = "Coffee.app"
+            BuildableName = "CoffeeCheru.app"
             BlueprintName = "Coffee"
             ReferencedContainer = "container:Coffee.xcodeproj">
          </BuildableReference>
