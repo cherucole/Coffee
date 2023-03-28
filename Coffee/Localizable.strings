@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Coffee
+
+  Created by Josh Berlin on 9/3/22.
+  
+*/
+
+/* New coffee placeholder name. */
+"New Coffee" = "New Coffee";
+
+/* Empty coffee name error. */
+"Coffee must have a name" = "Coffee must have a name";
